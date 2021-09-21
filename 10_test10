@@ -1,0 +1,1 @@
+ARG=$(seq 0 1000 | sort -R | tail -n 10 | tr '\n' ' ')  ;  ./push_swap $ARG
